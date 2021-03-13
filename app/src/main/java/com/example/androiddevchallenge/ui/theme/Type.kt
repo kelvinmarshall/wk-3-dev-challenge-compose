@@ -17,27 +17,60 @@ package com.example.androiddevchallenge.ui.theme
 
 import androidx.compose.material.Typography
 import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
+import com.example.androiddevchallenge.R
 
 // Set of Material typography styles to start with
+
+val kulimParkFamily = FontFamily(
+    Font(R.font.kulimpark_light, FontWeight.Light),
+    Font(R.font.kulimpark_regular, FontWeight.Normal)
+)
+
+val latoFamily = FontFamily(
+    Font(R.font.lato_regular, FontWeight.Normal),
+    Font(R.font.lato_bold, FontWeight.Bold)
+)
+
 val typography = Typography(
-    body1 = TextStyle(
-        fontFamily = FontFamily.Default,
+    h1 = TextStyle(
+        fontFamily = kulimParkFamily,
+        fontWeight = FontWeight.Light,
+        letterSpacing = 1.15.sp,
+        fontSize = 28.sp,
+    ),
+    h2 = TextStyle(
+        fontFamily = kulimParkFamily,
         fontWeight = FontWeight.Normal,
-        fontSize = 16.sp
-    )
-        /* Other default text styles to override
+        letterSpacing = 1.15.sp,
+        fontSize = 15.sp,
+    ),
+    h3 = TextStyle(
+        fontFamily = latoFamily,
+        fontWeight = FontWeight.Bold,
+        letterSpacing = 0.sp,
+        fontSize = 14.sp,
+    ),
+    body1 = TextStyle(
+        fontFamily = latoFamily,
+        fontWeight = FontWeight.Normal,
+        letterSpacing = 0.sp,
+        fontSize = 14.sp,
+    ),
     button = TextStyle(
-        fontFamily = FontFamily.Default,
-        fontWeight = FontWeight.W500,
-        fontSize = 14.sp
+        fontFamily = latoFamily,
+        fontWeight = FontWeight.Bold,
+        fontSize = 14.sp,
+        letterSpacing = 1.15.sp,
     ),
     caption = TextStyle(
-        fontFamily = FontFamily.Default,
+        fontFamily = kulimParkFamily,
         fontWeight = FontWeight.Normal,
-        fontSize = 12.sp
-    )
-    */
+        fontSize = 12.sp,
+        letterSpacing = 1.15.sp,
+    ),
+
 )

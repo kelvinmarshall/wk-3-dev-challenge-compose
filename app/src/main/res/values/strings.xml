@@ -9,5 +9,14 @@
       or implied. See the License for the specific language governing permissions and limitations under
       the License.
       -->
-    <string name="app_name">AndroidDevChallenge</string>
+    <string name="app_name">MySoothe</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="log_in">LOGIN</string>
+    <string name="email_address">Email address</string>
+    <string name="password">Password</string>
+    <string name="dont_have_account">Don\'t have an account? </string>
+    <string name="search">Search</string>
+    <string name="favorite_collection">FAVORITE COLLECTIONS</string>
+    <string name="align_your_body">ALIGN YOUR BODY</string>
+    <string name="align_your_mind">ALIGN YOUR MIND</string>
 </resources>
