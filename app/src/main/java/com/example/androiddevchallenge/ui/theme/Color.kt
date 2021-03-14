@@ -27,6 +27,3 @@ val white800 = Color(0xCCFFFFFF)
 val white850 = Color(0xD9FFFFFF)
 val rust600 = Color(0xFF886363)
 val rust300 = Color(0xCCE1AFAF)
-
-
-
