@@ -1,4 +1,4 @@
-# Put title of your app here
+# My Soothe
 
 <!--- Replace <OWNER> with your Github Username and <REPOSITORY> with the name of your repository. -->
 <!--- You can find both of these in the url bar when you open your repository in github. -->
@@ -14,13 +14,8 @@ The sipicity of declarative UI in crearting apps. It is easier to create server 
 
 
 ## :camera_flash: Screenshots
-<!-- You can add more screenshots here if you like -->
-<img src="/results/screenshot_1.png" width="260">&emsp;<img src="/results/screenshot_2.png" width="260">
-<img src="/results/screenshot_2.png" width="260">&emsp;<img src="/results/screenshot_2.png" width="260">
-<img src="/results/screenshot_3.png" width="260">&emsp;<img src="/results/screenshot_2.png" width="260">
-<img src="/results/screenshot_4.png" width="260">&emsp;<img src="/results/screenshot_2.png" width="260">
-<img src="/results/screenshot_5.png" width="260">&emsp;<img src="/results/screenshot_2.png" width="260">
-<img src="/results/screenshot_6.png" width="260">&emsp;<img src="/results/screenshot_2.png" width="260">
+
+<img src="/results/screenshot_1.jpg" width="260">&emsp;<img src="/results/screenshot_2.jpg" width="260">&emsp;<img src="/results/screenshot_3.jpg" width="260">&emsp;<img src="/results/screenshot_4.jpg" width="260">&emsp;<img src="/results/screenshot_5.jpg" width="260">&emsp;<img src="/results/screenshot_6.jpg" width="260">
 
 ## License
 ```
